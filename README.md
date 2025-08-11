@@ -78,31 +78,20 @@ cd brazilian-ecommerce-dwh
 Set up .env file with DB credentials.
 
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 3️⃣ Load Data
 Download CSV files from Kaggle and place them in /data/raw/
 
 Run initial load:
-
-bash
-Copy
-Edit
 python scripts/load_staging.py
+
 4️⃣ Build Warehouse
-bash
-Copy
-Edit
+
 dbt run
 📊 Example Analytical Queries
 Top 5 Cities by Total Sales:
 
-sql
-Copy
-Edit
 SELECT 
     dim_geolocation.city,
     SUM(fact_orders.total_price) AS total_sales
@@ -113,10 +102,6 @@ GROUP BY dim_geolocation.city
 ORDER BY total_sales DESC
 LIMIT 5;
 Monthly Sales Trend:
-
-sql
-Copy
-Edit
 SELECT
     dim_dates.year_month,
     SUM(fact_orders.total_price) AS total_sales
