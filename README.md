@@ -34,7 +34,8 @@ The dataset contains real e-commerce orders from multiple marketplaces in Brazil
 [Kaggle Dataset] → [Staging Tables] → [Transformations] → [Dimensional Model] → [BI / Analytics]
 
 ### Diagram
-![Data Warehouse Architecture](docs/architecture_diagram.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/371ec815-cdf5-4d66-90da-3dd1b2e6d44b" />
+
 
 **Layers:**
 1. **Staging:** Raw data loaded as-is for auditing.
