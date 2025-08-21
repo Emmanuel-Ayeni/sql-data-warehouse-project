@@ -1,4 +1,4 @@
-# E-Commerce Data Warehouse
+# E-Commerce Sales Intelligence Data Warehouse: End-to-End ETL, Modelling, and Analytics Platform
 
 **A SQL Data Warehouse project transforming the E-Commerce Public Datasets into an analytical powerhouse for business insights.**
 
